@@ -4,5 +4,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: windows-latest
     steps:  
-      - run: cd D:\a\actions\actions\
+      - run: cd D:\a\
+      - run: tree
+      - run: cd D:\a\actions\
       - run: tree

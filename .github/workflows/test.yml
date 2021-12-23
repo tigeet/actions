@@ -2,10 +2,9 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
       - run: cd ${{ github.workspace }}
       - run: cmake --version
-      - run: chmod a+x main.exe
-      - run: ./main.exe
+      - run: main.exe

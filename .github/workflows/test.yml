@@ -5,3 +5,5 @@ jobs:
     runs-on: windows-latest
     steps:  
       - run: tree
+      - run: cd PATH
+      - run: tree

@@ -6,4 +6,5 @@ jobs:
     steps:  
       - run: cmake --version
       - run: g++ --version
+      - run: g++ main.cpp -o main.exe
       - run: main.exe

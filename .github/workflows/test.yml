@@ -6,5 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd ${{ github.workspace }}
+      - run: tree
       - run: cmake --version
-      - run: main.exe
+      - run: ./main.exe

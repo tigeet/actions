@@ -4,6 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: ls ${{ github.workspace }}
-      - run: cd ${{ github.workspace }}
-      - run: ./main.exe
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}

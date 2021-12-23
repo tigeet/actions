@@ -4,6 +4,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: windows-latest
     steps:  
-      - run: mkdir tiget
-      - run: cd tiget
-      - run: echo %cd%
+      - run: tree
